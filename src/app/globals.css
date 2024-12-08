@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header container */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff; /* White background */
+  border-bottom: 1px solid #ddd;
+}
+
+/* Top links section */
+.top-links {
+  display: flex;
+  justify-content: flex-end;
+  padding: 3px 20px; /* Reduced padding to shrink top section */
+  background-color: #f9f9f9; /* Light gray */
+  font-size: 12px;
+  height: 18px; /* Adjusted height to fit within the total 96px */
+}
+
+.top-links-list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.top-links-list li {
+  display: inline;
+}
+
+.top-links-list a {
+  text-decoration: none;
+  color: #555;
+}
+
+.top-links-list a:hover {
+  text-decoration: underline;
+}
+
+/* Main header section */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 80px; /* Fixed height for the main header */
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Logo styling */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Match the height of the header */
+}
+
+.logo {
+  height: auto; /* Keep the original aspect ratio */
+  max-height: 100%; /* Prevent it from overflowing the header */
+  max-width: 80px; /* Keep it visually large but constrained */
+}
+
+/* Navigation menu */
+.nav-menu {
+  flex: 2;
+  text-align: center;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.menu-list li {
+  font-size: 14px;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.menu-list li a:hover {
+  color: #555;
+}
+
+/* Right section with search bar and icons */
+.header-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  width: 150px;
+}
+
+.search-input::placeholder {
+  color: #aaa;
+  font-size: 12px;
+}
+
+/* Icons */
+.icon-btn {
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.icon-btn:hover {
+  color: #555;
+}
+
+
+
+
+/* Footer.css */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  font-size: 11px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.footer-column-ul {
+  color: #aaa;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 8px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-right: 15px;
+}
+
+.footer-icons i {
+  /* margin-left: 15px; */
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer-icons i:hover {
+  color: #ddd;
+}
