@@ -1,0 +1,153 @@
+/* General reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header container */
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff; /* White background */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Top links section */
+  .top-links {
+    display: flex;
+    justify-content: flex-end;
+    padding: 3px 20px; /* Reduced padding to shrink top section */
+    background-color: #f9f9f9; /* Light gray */
+    font-size: 12px;
+    height: 18px; /* Adjusted height to fit within the total 96px */
+  }
+  
+  .top-links-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-links-list li {
+    display: inline;
+  }
+  
+  .top-links-list a {
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .top-links-list a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main header section */
+  .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 80px; /* Fixed height for the main header */
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Logo styling */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Match the height of the header */
+  }
+  
+  .logo {
+    height: auto; /* Keep the original aspect ratio */
+    max-height: 100%; /* Prevent it from overflowing the header */
+    max-width: 80px; /* Keep it visually large but constrained */
+  }
+  
+  /* Navigation menu */
+  .nav-menu {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .menu-list li {
+    font-size: 14px;
+  }
+  
+  .menu-list li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+  
+  .menu-list li a:hover {
+    color: #555;
+  }
+  
+  /* Right section with search bar and icons */
+  .header-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* Search bar */
+  .search-bar {
+    gap: 10px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    padding: 5px 10px;
+  }
+  
+  .search-icon {
+    height: 25px;
+    width: 23px;
+  }
+  
+  .search-input {
+    background-color: #f5f5f5;
+    font-size: 14px;
+    width: 170px;
+    height: 35px;
+  }
+  
+  .search-input::placeholder {
+    color: #aaa;
+    font-size: 15px;
+  }
+  
+  /* Icons */
+  .icon-btn {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .icon-btn:hover {
+    color: #555;
+  }
+  
+  .tow-icons {
+    height: 20px;
+    width: 20px;
+  }
+  
