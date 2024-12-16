@@ -1,5 +1,5 @@
 /* General reset */
-body {
+.body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -10,26 +10,43 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #fff; /* White background */
+    background-color: #fff; 
     border-bottom: 1px solid #ddd;
   }
   
   /* Top links section */
   .top-links {
     display: flex;
-    justify-content: flex-end;
-    padding: 3px 20px; /* Reduced padding to shrink top section */
-    background-color: #f9f9f9; /* Light gray */
-    font-size: 12px;
-    height: 18px; /* Adjusted height to fit within the total 96px */
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5; 
+    font-size: 11px;
+    font-weight: 500;
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif Helvetica, ;
+    height: 36px;
   }
   
-  .top-links-list {
+  .top-image {
+    margin-left: 35px;
+}
+
+.top-link {
+    margin-right: 35px;
+}
+
+.top-links-list {
+                  
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 15px;          
     margin: 0;
     padding: 0;
+  }
+
+  .find {
+    padding-right: 15px;
+    border-right: 1px black;
   }
   
   .top-links-list li {
@@ -50,8 +67,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
-    height: 80px; /* Fixed height for the main header */
+    padding: 0px 30px;
+    height: 60px; /* Fixed height for the main header */
     max-width: 100%;
     box-sizing: border-box;
   }
@@ -86,7 +103,9 @@ body {
   }
   
   .menu-list li {
-    font-size: 14px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
   }
   
   .menu-list li a {
