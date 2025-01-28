@@ -25,10 +25,10 @@ export default function Header() {
           </div>
           <div className={styles["top-link"]} >
             <ul className={styles["top-links-list"]}>
-              <Link href="/find-a-store" className={styles.find}>  <li>Find a Store  </li> </Link>
-              <Link href="/help"         className={styles.find}>  <li>Help          </li></Link>
-              <Link href="/join-us"      className={styles.find}>  <li>Join Us       </li></Link>
-              <Link href="/sign-in">                               <li>Sign In       </li></Link>
+              <Link href="/" className={styles.find}>  <li>Find a Store  </li></Link>
+              <Link href="/" className={styles.find}>  <li>Help          </li></Link>
+              <Link href="/" className={styles.find}>  <li>Join Us       </li></Link>
+              <Link href="/">                          <li>Sign In       </li></Link>
             </ul>
           </div>
         </div>
